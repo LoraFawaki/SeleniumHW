@@ -1,4 +1,4 @@
-package HM1;
+package HM2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
