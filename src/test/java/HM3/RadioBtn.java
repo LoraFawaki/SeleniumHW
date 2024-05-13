@@ -16,8 +16,7 @@ public class RadioBtn {
 
         WebElement maleFemale = driver.findElement(By.xpath("//input[@value='Female']"));
         maleFemale.click();
-        WebElement radioButton = driver.findElement(By.xpath("//p[@class='radiobutton']"));
-        WebElement enableButton = driver.findElement(By.xpath("//button[@id='enabledradio']"));
+                WebElement enableButton = driver.findElement(By.xpath("//button[@id='enabledradio']"));
         enableButton.click();
         WebElement clickMale = driver.findElement(By.xpath("//input[@value='gender-male']"));
         clickMale.click();
