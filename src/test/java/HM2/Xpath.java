@@ -33,5 +33,7 @@ public class Xpath {
         WebElement field2 =  driver.findElement(By.xpath("//input[@name='customField' and @data-detail='two']"));
         field2.sendKeys("Ghali");
 
+        driver.quit();
+
     }
 }

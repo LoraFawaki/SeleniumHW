@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 public class checkBox {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://syntaxprojects.com/basic-checkbox-demo.php");
@@ -31,9 +31,12 @@ public class checkBox {
             if(d.equalsIgnoreCase("Checkbox-1") || d.equalsIgnoreCase("Checkbox-4")){
                 demo.click();
 
-
             }
+            Thread.sleep(1000);
+        demo.click();
         }
+
+
 
 
 
